@@ -1,0 +1,90 @@
+<rules>
+    <activity block="true" log="true">
+        <!-- 外部打开淘宝 com.taobao.taobao -->
+        <intent-filter>
+            <action name="android.intent.action.VIEW" />
+            <cat name="android.intent.category.DEFAULT" />
+            <scheme name="taobao" />
+        </intent-filter>
+
+        <intent-filter>
+            <action name="android.intent.action.VIEW" />
+            <cat name="android.intent.category.BROWSABLE" />
+            <scheme name="tbopen" />
+        </intent-filter>
+
+        <!-- 外部打开京东 com.jingdong.app.mall -->
+        <intent-filter>
+            <action name="android.intent.action.VIEW" />
+            <cat name="android.intent.category.BROWSABLE" />
+            <scheme name="openapp.jdmobile" />
+        </intent-filter>
+
+        <intent-filter>
+            <action name="android.intent.action.VIEW" />
+            <cat name="android.intent.category.BROWSABLE" />
+            <scheme name="openjd" />
+        </intent-filter>
+
+        <!--  外部打开天猫 com.tmall.wireless -->
+        <intent-filter>
+            <action name="android.intent.action.VIEW" />
+            <cat name="android.intent.category.BROWSABLE" />
+            <scheme name="tmall" />
+        </intent-filter>
+
+        <!-- 外部打开天猫豆瓣 com.douban.frodo -->
+        <intent-filter>
+            <action name="android.intent.action.VIEW" />
+            <cat name="android.intent.category.BROWSABLE" />
+            <scheme name="douban" />
+        </intent-filter>
+
+        <!-- 外部打开知乎 com.zhihu -->
+        <intent-filter>
+            <action name="android.intent.action.VIEW" />
+            <cat name="android.intent.category.DEFAULT" />
+            <scheme name="zhihu" />
+        </intent-filter>
+
+        <!-- 外部打开腾讯视频 com.tencent.qqlive  -->
+        <intent-filter>
+            <action name="android.intent.action.VIEW" />
+            <cat name="android.intent.category.BROWSABLE" />
+            <scheme name="tenvideo2" />
+        </intent-filter>
+
+        <!-- 外部打开闲鱼 com.taobao.idlefish -->
+        <intent-filter>
+            <action name="android.intent.action.VIEW" />
+            <cat name="android.intent.category.BROWSABLE" />
+            <scheme name="fleamarket" />
+        </intent-filter>
+
+        <!-- 外部打开QQ音乐 com.tencent.qqmusic -->
+        <intent-filter>
+            <action name="android.intent.action.VIEW" />
+            <cat name="android.intent.category.BROWSABLE" />
+            <scheme name="qqmusic" />
+        </intent-filter>
+
+        <!-- 外部打开拼多多 com.pinduoduo -->
+        <intent-filter>
+            <action name="android.intent.action.VIEW" />
+            <cat name="android.intent.category.BROWSABLE" />
+            <scheme name="pddopen" />
+        </intent-filter>
+
+        <intent-filter>
+            <action name="android.intent.action.VIEW" />
+            <cat name="android.intent.category.BROWSABLE" />
+            <scheme name="pinduoduo" />
+        </intent-filter>
+
+
+        <!-- 只限制其他应用打开  -->
+        <not>
+            <sender type="userId" />
+        </not>
+    </activity>
+</rules>
