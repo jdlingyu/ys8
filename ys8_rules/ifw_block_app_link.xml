@@ -80,6 +80,14 @@
             <cat name="android.intent.category.BROWSABLE" />
             <scheme name="pinduoduo" />
         </intent-filter>
+        <!-- 外部打开知乎 -->
+        <intent-filter>
+            <action name="android.intent.action.VIEW" />
+            <cat name="android.intent.category.BROWSABLE" />
+            <scheme name="zhihu" />
+        </intent-filter>
+        <!-- 外部打开xxxx -->
+
 
 
         <!-- 只限制其他应用打开  -->
