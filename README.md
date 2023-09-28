@@ -8,12 +8,6 @@ https://raw.githubusercontent.com/jdlingyu/ys8/main/ys8.json
 https://ghproxy.com/https://raw.githubusercontent.com/jdlingyu/ys8/main/ys9.json
 ```
 
-### 无🪜代理规则订阅地址
-> 第三方个人提供，可能会下线。
-``` shell
-https://estar.kkws.vip/subscribe/ys8.json
-```
-
 ### 下载规则
 ``` shell
 https://estar.lanzoum.com/y8s
