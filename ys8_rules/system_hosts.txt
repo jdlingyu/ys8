@@ -343,7 +343,6 @@
 127.0.0.1 sdk.cferw.com
 
 #pkg=ad.adwars.com;大圣净化规则
-## 微信
 127.0.0.1 ad.weixin.qq.com
 127.0.0.1 wxa.wxs.qq.com
 127.0.0.1 wxsnsdythumb.wxs.qq.com
@@ -356,7 +355,6 @@
 127.0.0.1 canvas.gdt.qq.com
 127.0.0.1 badjs.weixinbridge.com
 127.0.0.1 mj.weimob.net
-## 今日头条
 127.0.0.1 ad.toutiao.com
 127.0.0.1 dm.toutiao.com
 127.0.0.1 adshare.toutiao.com
@@ -369,12 +367,10 @@
 127.0.0.1 api-access.pangolin-sdk-toutiao.com
 127.0.0.1 api-access.pangolin-sdk-toutiao-b.com
 127.0.0.1 log-api.pangolin-sdk-toutiao.com
-## 蜻蜓fm
 127.0.0.1 ad.qingting.fm
 127.0.0.1 list.z.qingting.fm
 127.0.0.1 adlaunch.qingting.fm
 127.0.0.1 ad-cdn.qingting.fm
-## 喜马拉雅
 127.0.0.1 ad.ximalaya.com
 127.0.0.1 adse.ximalaya.com
 127.0.0.1 adse.wsa.ximalaya.com
@@ -388,28 +384,23 @@
 127.0.0.1 location.ximalaya.com
 127.0.0.1 xdcs-collector.ximalaya.com
 127.0.0.1 events.appsflyer.com
-## QQ音乐
 127.0.0.1 ad.tencentmusic.com
 127.0.0.1 adstats.tencentmusic.com
 127.0.0.1 adcdn.tencentmusic.com
 127.0.0.1 adexpo.tencentmusic.com
 127.0.0.1 adclick.tencentmusic.com
-## 网易新闻
 127.0.0.1 g1.163.com
 127.0.0.1 nex.163.com
-## 网易云音乐
 127.0.0.1 admusicpic.music.126.net
 127.0.0.1 iadmusicmat.music.126.net
 127.0.0.1 clientlog3.music.163.com
 127.0.0.1 iadmusicmatvideo.music.126.net
-## 微博
 127.0.0.1 sdkapp.mobile.sina.cn
 127.0.0.1 wbapp.mobile.sina.cn
 127.0.0.1 vs.biz.weibo.com
 127.0.0.1 dp.im.weibo.cn
 127.0.0.1 ad.us.sinaimg.cn
 127.0.0.1 adstrategy.biz.weibo.com
-## 新浪新闻
 127.0.0.1 sax.sina.com.cn
 127.0.0.1 saxn.sina.com.cn
 127.0.0.1 beacon.sina.com.cn
@@ -421,17 +412,14 @@
 127.0.0.1 d7.sina.com.cn
 127.0.0.1 d8.sina.com.cn
 127.0.0.1 d9.sina.com.cn
-## 虎扑
 127.0.0.1 adx.hupu.com
 127.0.0.1 goblin.hupu.com
 127.0.0.1 shence.hupu.com
 127.0.0.1 ccdace.hupu.com
 127.0.0.1 hd.hupu.com
-## 蓝奏云
 127.0.0.1 glores2.taisantech.com
 127.0.0.1 sanme2.taisantech.com
 127.0.0.1 madeqr.com
-## snssdk
 127.0.0.1 mon.snssdk.com
 127.0.0.1 extlog.snssdk.com
 127.0.0.1 toblog.ctobsnssdk.com
@@ -444,7 +432,6 @@
 127.0.0.1 sdfp.snssdk.com
 127.0.0.1 abtest-ch.snssdk.com
 127.0.0.1 pangolin.snssdk.com
-## OPPO手机广告
 127.0.0.1 adsfs.oppomobile.com
 127.0.0.1 adx.ads.oppomobile.com
 127.0.0.1 bdapi.ads.oppomobile.com
@@ -457,7 +444,6 @@
 127.0.0.1 dataf.ads.oppomobile.com
 127.0.0.1 g1.ads.oppomobile.com
 127.0.0.1 uapi.ads.oppomobile.com
-## vivo手机广告
 127.0.0.1 adlog.vivo.com.cn
 127.0.0.1 adreq.vivo.com.cn
 127.0.0.1 adsdk.vivo.com.cn
@@ -480,7 +466,6 @@
 127.0.0.1 pnrt.stsdk.vivo.com.cn
 127.0.0.1 prt.stsdk.vivo.com.cn
 127.0.0.1 vcardsdkservice.vivo.com.cn
-## 抓包追加
 127.0.0.1 m.shilian168.cn
 127.0.0.1 m.zdjgj.cn
 127.0.0.1 ee.j5s9b.cn
@@ -815,7 +800,6 @@
 127.0.0.1 api.yidaomobi.com
 127.0.0.1 adtrack.e.kuaishou.com
 127.0.0.1 open.e.kuaishou.cn
-## 2023-03-01新增
 127.0.0.1 jnn-pa.googleapis.com
 127.0.0.1 adcs-ue.myappsget.com
 127.0.0.1 api.myadsget.com
@@ -848,6 +832,16 @@
 127.0.0.1 cdp.cloud.unity3d.com
 127.0.0.1 app-measurement.com
 127.0.0.1 beacons.gcp.gvt2.com
+127.0.0.1 config.ads.vungle.com
+127.0.0.1 adx-os.anythinktech.com
+127.0.0.1 configv2.unityads.unitychina.cn
+127.0.0.1 prod-a.applovin.com
+127.0.0.1 t.apkpure.net
+127.0.0.1 a.applvn.com
+127.0.0.1 report.apkpure.net
+127.0.0.1 open-set-api.shenshiads.com
+127.0.0.1 guanggao-prod.cn-shanghai.log.aliyuncs.com
+127.0.0.1 api-access.pangolin-sdk-toutiao1.com
 
 #pkg=googleanalysis.mobi;谷歌广告服务
 127.0.0.1 ads.google.com
